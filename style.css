@@ -1,0 +1,14 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.text_holder{
+    padding: 20px 0;
+    background-color: #367205;
+}
+.text_holder h1{
+    text-align: center;
+    font-size: 2em;
+    color: #fff;
+    text-transform: capitalize;
+}
