@@ -3,12 +3,41 @@
     margin: 0;
 }
 .text_holder{
-    padding: 20px 0;
+    padding: 20px 20px;
     background-color: #367205;
 }
 .text_holder h1{
     text-align: center;
     font-size: 2em;
     color: #fff;
+    text-transform: capitalize;
+}
+.text_holder a{
+    text-align: left;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.header_holder{
+    padding: 2% 0;
+    background-color: #40086d;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+.header_holder ul{
+    display: block;
+    text-decoration: none;
+}
+.header_holder ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+.header_holder ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
     text-transform: capitalize;
 }
